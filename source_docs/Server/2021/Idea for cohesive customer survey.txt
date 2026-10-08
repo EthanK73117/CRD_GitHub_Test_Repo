@@ -1,0 +1,85 @@
+SMT Question
+<> *1- package size/ Roadmap, important for equipment  cost (cannot change too much in x years)-- BHR-AP/BHR-SP.
+<> - socket supplier transperancy for SMT  ? quality control -> is there any quality issue or improvement at PHM/socket supplier that u would like Intel intervention ? 
+- TFT Tray ? Tray polarity, package pin1 and supplier tranparency (include in JEDEC for long term, temporary let Inventec to get their own tray layout)
+- loose PnP Cap and tolorance by suppplier - Is there uniformity across all socket suppliers for PnP recipe?
+- PnP cap removal tool - Is the tool used in all builds and is there any design considerations that should be made?
+- clearer socket CTF drawings 
+<> - PCH, shipping media preferance - Is there a preference T&R vs tray? 
+SMT/rework profile uniformity across skt suppliers - Is there uniformity across socket suppliers for SMT reflow? 
+
+
+rework 
+- PnP cap meterial melting - 
+- *1 impact rework too
+- reball/touch-up - Is reball/touch-up used? 
+- DDR5 SMD BKM sharing ? 
+
+
+brd layout
+<?> open via ? -- Are open vias used underneath the CPU socket? are there any concerns with SMT impact of open vias?
+Do you follow land pattern recommendation?
+
+
+package & design
+<> LGA pad corrosion ? 
+MBB ?
+Au plating thickness - Typical socket plating thickness used? (get from supplier? the breakdown of 15 vs 30um)
+    What drives the decision to have different Au plating thicknessess?
+<> Special sku for ODM testing (with high durability for LGA pads)
+<> KIZ for bottom 2DID, top marking, font size, FOV window, location, content, type (2D vs human readable)-- in desgin
+    Do the current marks on the IHS and pkg substrate provide the information needed in the factory/field?
+    - Human Readable
+    - 2DM
+IHS shape correlated to SKU 
+PMD vs Intel test pads (internal), KOZ to test pads, KIZ for carrier
+<><> shipping CPU with carrier attached option, Would u like to hv option for receiving CPU shipping with carrier pre-attached ? 
+
+Automation (test/system integration)
+what improvements can be made for automation friendliness
+eg. CPU to PHM assembly
+PHM to socket assembly
+socket/dust cover removal ? (AMD usign ILM)
+traceability - inventory control (FIFO), anti-fraud, 
+- customer wants Intel to provide all units 2DID per shipment (scan FPO then & get 2DID, csv format)
+
+4S/8S manual process
+FTT/assembly tool usage - will the current assembly tool be valuable for automated assembly? (check CCI Purley FTT to estimate)
+<> Do u forsee the FTT/assm tool helps in your test and system int line ?
+<> if yes, do you plan to implement this tool ? 
+
+Assembly
+torque driver RPM
+follow MAS torque recommendation or legacy torque value? (8 vs 12 in-lbf)
+PEEK vs metal nuts preference - impact of debris
+30 cycle requirement for socket - will likely be asked by PAE as well
+<> tray assembly vs fixture assembly of PHM --> Do you design own fixture for PHM assembly ?
+Ergo concerns? 
+customerexpectation easy to attch/ easy to remove (HP and Dell)
+
+test
+Is there any debug capability you would like Intel to improve ? 
+<> *2) Do u think automated crash dump (ACD) is helpful/useful in your system debug during FACR ? ( this can probably link to include BIOS Writer Guide)
+3) What are the debug method you are using in isolating the failure to Intel processor ?
+<> 4) How can Intel help to speed up your debug process ?
+<> 5) Do you have any recommendation on desire debug feature for you board failure analysis ?
+<> 6) What are the software/test/method that you typically use and can help to reproduce/debug failure for Intel processor ?
+7) Do you think automated debug tool on failure commonality study would help you to isolate issue easier?
+8) Do you think automated log analysis provided during debug validation is useful for further debug?
+-- MCE log 
+
+
+colleterals / colleberation (to ask customer to provide feedback whether need improvement or other than these. any additional they needs)
+MAS (score 1 -5, if low suggest improvement) - PMD disclaimer 
+BFI Guidance (can we include MAS) - define timing for MCC to meet (mTPS/traincient bend?)
+Design-In interposer SMT (internal to sort out)
+TMSDG (score 1 -5, if low suggest improvement)
+PMD 
+<> MV ? 
+
+
+
+
+
+how important is the 30 cycle requirement for socket durability?
+How important is the no sequence vs sequence used based on overall cost?

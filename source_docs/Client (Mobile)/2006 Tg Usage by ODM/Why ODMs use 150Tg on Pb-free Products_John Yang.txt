@@ -1,0 +1,69 @@
+From: Yang, John
+Sent: Thursday, February 08, 2007 5:18 AM
+To: Yeoh, Pit Yeow
+Cc: Zhou, Claudia; Yu, Harry; Tan, Chuan Kiat; Yap, Eng Hooi; Krishnan, Saravanan; Burkholder, Dan S; Combs, Christopher D; Tang, Kok Kwan
+Subject: RE: Some Question SIT needs on PCB Tg
+
+As we discussed thru phone call, peak temp increased in LF compare with EU (210 è 230). That is 20 deg.C delta. Hence “ideally”, Tg must be increased as well in order to meet LF process. 
+
+As well as concern from OEM, OEMs required ODM to use higher Tg PCB.
+
+John Yang
+
+ 
+
+
+--------------------------------------------------------------------------------
+
+From: Yeoh, Pit Yeow 
+Sent: Thursday, February 08, 2007 3:08 PM
+To: Yang, John
+Cc: Zhou, Claudia; Yu, Harry; Tan, Chuan Kiat; Yap, Eng Hooi; Krishnan, Saravanan; Burkholder, Dan S; Combs, Christopher D; Tang, Kok Kwan
+Subject: Some Question SIT needs on PCB Tg
+Importance: High
+
+ 
+
+Hi John, 
+
+ 
+
+Please help to check on why customers used 150oCTg but not 140 or 130oC. This is urgent as the SIT need to answer to Martin by tomorrow.
+
+ 
+
+During my trip I have asked the questions. The answers is, “Lower than 150oCTg would have warpage issue on lead free reflow profile”.
+
+ 
+
+The questions we have are,
+
+1). Is that a ROHs compliant request need that push customer to use 150oCTg?
+
+2). Is the price of 150oTg is cheep/good everyone customer use 150oCTg?
+
+ 
+
+Copying others, do add in if you know the answer or have some idea on that.
+
+ 
+
+Sorry for the inconvenience cause.
+
+ 
+
+ 
+
+Yeoh Pit Yeow
+
+ATTD
+
+Customer Manufacturing Enabling
+
+Tel : 604-433 7250
+
+Fax : 604-433 6915
+
+ 
+
+ 

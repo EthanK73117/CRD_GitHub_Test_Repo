@@ -1,0 +1,20 @@
+---
+source_file: "ODM Handling of AxD Svr CPU Carrier.xlsx"
+source_path: "C:/Users/ethankat/OneDrive - Intel Corporation/Documents/GitHub/CRD_GitHub_Test_Repo/source_docs/Server/2026Q2 Svr ODM CPU Carrier Handling Survey/ODM Handling of AxD Svr CPU Carrier.xlsx"
+file_type: "xlsx"
+size_bytes: 18909
+content_hash: "91a56e7cf500"
+converted_at: "2026-10-08T11:29:06"
+---
+
+# ODM Handling of AxD Svr CPU Carrier
+
+## Sheet: Sheet1
+
+| ODM Name | Handling Process |
+| --- | --- |
+| Maginfra | -	Customer does encounter some CPU carrier damage issue, but it is rare. o	Axx keep the AVI (Automatic Visual Inspection) photo of every CPU they shipped out, both top and bottom, to prove whether the carrier is damaged before or after shipping. -	Axx provides some extra CPU carrier to Maginfra, so they can replace a new one once find carrier damage o	Per Maginfra, ~100Pcs/year is enough -	Another source of extra carrier is taken down the carrier from RMA CPU o	AxD does not require RMA CPU with carrier, so Maginfra will take down the carrier keep for future use, only return the CPU o	This requires the shipping tray can accommodate both 2 scenarios: 1. shipping with carrier installed; 2. shipping w/o carrier installed. Per Maginfra, Axx tray is capable for both scenarios. Need Intel to check and confirm the Intel tray design |
+| Foxconn TJ | Foxconn received a dozen of spare carrier parts from Axx, which is enough for them;  In case carrier is not enough at manufacturing, Foxconn can also take the carrier from fleet fail as replacement for assembly use ;  Foxconn will RMA both CPU and carrier to Axx to avoid CPU loose in the tray |
+| xFusion | They have experience in Axx products with the carrier issue at incoming and at manufacturing when handling with carrier ,  the broken carrier will not be received .   the 1st choice is replacing a good carrier with the broken one.     Axx provided carriers spare parts to them to replace ,  but sometimes the spare parts is insufficient.   xFusion expect Intel can provide sufficient carrier spare parts to them as backup .   Will customer return/RMA the carrier?  No , they just need replacement or return CPU+ Carrier.  Will customer return/RMA the whole CPU+Carrier?   See above.      Other comments :  1. Given the Carrier will be new material to xFusion. xFusion expect Intel have a clear VI guideline of the Carrier ,  to help Incoming gates perform VI checking.  2. Expect Intel have clear instruction of RMA , e.g.  "When ...be found ,  RMA carrier.   "When .....  "RMA carrier + CPU" ,  or Intel only accept RMA carrier ....  Something like this to have a clear instruction to support customer. 3. For the broken carrier ,  the spare parts to be replaced are strongly preferred.   Expect Intel can support sufficient Carrier spare parts at customer side ,  also prepare some spare parts at local office in case carrier spare parts shortage at customer side 4. From the Carrier's shape design of view (especially at each conners of Intel carrier) ,  Intel carrier looks less robust and that induces risk of damage during installing/uninstalling and transportation |
+| ZTE | - When ZTW see carrier broken, they will contact AxD, and AxD will send them new carrier for replacement - ZTE will not RMA carrier, if the CPU is OK, ZTE just replace with a new carrier - ZTE mentioned that edge material of AxD carrier is thin and easy to be damaged during assembly, they recommend Intel take it into consideration |
+| Summary: Customer do not RMA carrier only AxD send spare carriers for customer replacement, believe the damaged carrier just be scarped at customer side Some customer will RMA defect CPU with carrier, some customer just RMA the defect CPU  Suggestions: 1. Fig out a way to distribute spare carriers to customers 2. Keep AVI photo top and bottom for every CPU we ship out 3. Create instruction how to manually replace carrier 4. A robust carrier design is preferred 5. It will be nice if the shipping tray can accommodate both shipping w/ and w/o carrier installed, if it is achievable |  |
